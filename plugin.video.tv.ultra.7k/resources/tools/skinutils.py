@@ -52,7 +52,7 @@ def xml_skin():
     # values="Premium|TV Ultra 7K Team|Latino Total|PLD|T-Killa|Pastebin|Personalizado|Halloween"
     if xmlmaster == 'true':
         if SelectXMLmenu == '0':  # TV Ultra 7K Team
-            mastermenu = 'http://pastebin.com/raw.php?i=32Z3GqhX'
+            mastermenu = 'http://pastebin.com/raw.php?i=9ktyM0Mg'
             plugintools.log("[tv.ultra.7k.xml_skin: "+SelectXMLmenu)
             # Control para ver la intro de TV Ultra 7K
             ver_intro = plugintools.get_setting("ver_intro")
@@ -60,40 +60,40 @@ def xml_skin():
                 xbmc.Player(xbmc.PLAYER_CORE_AUTO).play(art + 'intro.mp4')
 				
         elif SelectXMLmenu == '1':   # Nano Kodi
-            mastermenu = 'http://pastebin.com/raw.php?i=32Z3GqhX'
+            mastermenu = 'http://pastebin.com/raw.php?i=9ktyM0Mg'
             if mastermenu == "":
                 plugintools.log("[tv.ultra.7k.xml_skin: No definido")
-                mastermenu = 'http://pastebin.com/raw.php?i=32Z3GqhX'
+                mastermenu = 'http://pastebin.com/raw.php?i=9ktyM0Mg'
                 # Control para ver la intro de TV Ultra 7K
                 ver_intro = plugintools.get_setting("ver_intro")
                 if ver_intro == "true":
                     xbmc.Player(xbmc.PLAYER_CORE_AUTO).play(art + 'intro.mp4')				
 
         elif SelectXMLmenu == '2':   # Latino Total
-            mastermenu = 'http://pastebin.com/raw.php?i=32Z3GqhX'
+            mastermenu = 'http://pastebin.com/raw.php?i=9ktyM0Mg'
             if mastermenu == "":
                 plugintools.log("[tv.ultra.7k.xml_skin: No definido")
-                mastermenu = 'http://pastebin.com/raw.php?i=32Z3GqhX'
+                mastermenu = 'http://pastebin.com/raw.php?i=9ktyM0Mg'
                 # Control para ver la intro de TV Ultra 7K
                 ver_intro = plugintools.get_setting("ver_intro")
                 if ver_intro == "true":
                     xbmc.Player(xbmc.PLAYER_CORE_AUTO).play(art + 'intro.mp4')
 
         elif SelectXMLmenu == '3':   # Proyecto Luz Digital
-            mastermenu = 'http://pastebin.com/raw.php?i=32Z3GqhX'
+            mastermenu = 'http://pastebin.com/raw.php?i=9ktyM0Mg'
             if mastermenu == "":
                 plugintools.log("[tv.ultra.7k.xml_skin: No definido")
-                mastermenu = 'http://pastebin.com/raw.php?i=32Z3GqhX'
+                mastermenu = 'http://pastebin.com/raw.php?i=9ktyM0Mg'
                 # Control para ver la intro de TV Ultra 7K
                 ver_intro = plugintools.get_setting("ver_intro")
                 if ver_intro == "true":
                     xbmc.Player(xbmc.PLAYER_CORE_AUTO).play(art + 'intro.mp4')
 
         elif SelectXMLmenu == '4':   # T-Killa
-            mastermenu = 'http://pastebin.com/raw.php?i=32Z3GqhX'
+            mastermenu = 'http://pastebin.com/raw.php?i=9ktyM0Mg'
             if mastermenu == "":
                 plugintools.log("[tv.ultra.7k.xml_skin: No definido")
-                mastermenu = 'http://pastebin.com/raw.php?i=32Z3GqhX'
+                mastermenu = 'http://pastebin.com/raw.php?i=9ktyM0Mg'
                 # Control para ver la intro de TV Ultra 7K
                 ver_intro = plugintools.get_setting("ver_intro")
                 if ver_intro == "true":
@@ -103,7 +103,7 @@ def xml_skin():
             id_pastebin = plugintools.get_setting("id_pastebin")
             if id_pastebin == "":
                 plugintools.log("[tv.ultra.7k.xml_skin: No definido")
-                mastermenu = 'http://pastebin.com/raw.php?i=32Z3GqhX'
+                mastermenu = 'http://pastebin.com/raw.php?i=9ktyM0Mg'
             else:
                 mastermenu = 'http://pastebin.com/raw.php?i=' +id_pastebin
                 plugintools.log("[tv.ultra.7k.xml_skin: "+mastermenu)
@@ -114,17 +114,17 @@ def xml_skin():
                 mastermenu = plugintools.get_setting("mastermenu")
                 if mastermenu == "":
                     plugintools.log("[tv.ultra.7k.xml_skin: No definido")
-                    mastermenu = 'http://pastebin.com/raw.php?i=32Z3GqhX'
+                    mastermenu = 'http://pastebin.com/raw.php?i=9ktyM0Mg'
                     # Control para ver la intro de TV Ultra 7K
                     ver_intro = plugintools.get_setting("ver_intro")
                     if ver_intro == "true":
                         xbmc.Player(xbmc.PLAYER_CORE_AUTO).play(art + 'intro.mp4')
 
         elif SelectXMLmenu == '7':   # Halloween
-            mastermenu = 'http://pastebin.com/raw.php?i=32Z3GqhX'
+            mastermenu = 'http://pastebin.com/raw.php?i=9ktyM0Mg'
             if mastermenu == "":
                 plugintools.log("[tv.ultra.7k.xml_skin: No definido")
-                mastermenu = 'http://pastebin.com/raw.php?i=32Z3GqhX'
+                mastermenu = 'http://pastebin.com/raw.php?i=9ktyM0Mg'
                 # Control para ver la intro de TV Ultra 7K
                 ver_intro = plugintools.get_setting("ver_intro")
                 if ver_intro == "true":
@@ -132,7 +132,7 @@ def xml_skin():
 
     else:
         # xmlmaster = False (no activado), menú por defecto
-        mastermenu = 'http://pastebin.com/raw.php?i=32Z3GqhX'
+        mastermenu = 'http://pastebin.com/raw.php?i=9ktyM0Mg'
 
         # Control para ver la intro de TV Ultra 7K
         ver_intro = plugintools.get_setting("ver_intro")
